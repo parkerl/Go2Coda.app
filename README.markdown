@@ -10,7 +10,7 @@ Installation
 
 2. Clone this repo into your /Applications folder 
 
-    git clone git@github.com:parkerl/Go2Coda.app.git
+         git clone git@github.com:parkerl/Go2Coda.app.git
 
 3. Drag and drop the Go2Coda.app icon onto the finder toolbar.
 
