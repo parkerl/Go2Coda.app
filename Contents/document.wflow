@@ -122,7 +122,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}	tell application "Finder"		set currentfolder to POSIX path of ((folder of the front window) as alias)	end tell		tell application "System Events"		if (count (processes whose name is "Coda")) is 0 then			tell application "Coda"				open input			end tell		else			tell application "Coda"								if (count of document) is 0 then					make new document				end if				open input				tell front document					change local path currentfolder				end tell				activate			end tell		end if	end tell			end run</string>
+					<string>on run {input, parameters}		tell application "Finder"		set currentfolder to POSIX path of ((folder of the front window) as alias)	end tell		tell application "System Events"		if (count (processes whose name is "Coda")) is 0 then			tell application "Coda"				open input			end tell		else			tell application "Coda"								if (count of document) is 0 then					make new document				end if				open input				tell front document					change local path currentfolder				end tell				activate			end tell		end if	end tell			end run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -186,7 +186,7 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>26137A3C-8FA3-4E20-BAD1-5FC7939836EE</key>
+		<key>74B0E555-1A4E-4F7C-B235-A7AD9167832F</key>
 		<dict>
 			<key>from</key>
 			<string>EB09A697-20B2-41D7-B506-17D255843F38 - EB09A697-20B2-41D7-B506-17D255843F38</string>
